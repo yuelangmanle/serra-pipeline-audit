@@ -1,0 +1,10 @@
+metric,value,note
+combinations,316.0,n_valid >= 60; distance joined from the matching table
+distance_missing,0.0,combinations without a matching-table row
+separation_median_km,0.3282,median gauge-to-sampling separation
+separation_p90_km,12.0391,90th percentile (linear interpolation)
+separation_max_km,48.2016,maximum
+pairs_beyond_25km,11.0,combinations with separation above 25 km
+pairs_crossing_border,6.0,GEMS country differs from the matched GSIM station prefix
+candidate_pairs,9343.0,unique paired stations in the matching table (before the calendar/overlap gates)
+candidate_separation_median_km,15.3499,median gauge-to-sampling separation of the candidate pairs

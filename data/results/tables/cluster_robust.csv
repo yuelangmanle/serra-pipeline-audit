@@ -1,0 +1,5 @@
+method,cluster_key,n_combos,n_clusters,obs_share,ci_low,ci_high,p_two_sided
+std_ccm,gsim_id,316,248,0.519,0.4613,0.5741,0.5082
+std_ccm,gems_id,316,261,0.519,0.4642,0.5774,0.5077
+deseason,gsim_id,316,248,0.4684,0.4159,0.5238,0.2424
+deseason,gems_id,316,261,0.4684,0.4109,0.5219,0.2554

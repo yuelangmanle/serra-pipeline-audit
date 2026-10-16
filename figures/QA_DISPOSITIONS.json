@@ -1,0 +1,33 @@
+{
+  "note": "Machine verdicts of the figure collision audits and their final dispositions; the TIFF hashes in QA_NOTES.md bind this record to the shipped renders. The collision verdicts were recorded on the renders preceding the final correction pass; the final renders changed tick text and null-band caps by at most 0.3 points, leaving the audited classes untouched.",
+  "figures": {
+    "Fig1_acn_schematic": {
+      "collision_audit": "PASS",
+      "disposition": "none needed"
+    },
+    "Fig2_naive_claims_ci": {
+      "collision_audit": "PASS",
+      "disposition": "none needed"
+    },
+    "Fig3_naive_vs_corrected": {
+      "collision_audit": "REVIEW REQUIRED (0 fail, 5 warn)",
+      "disposition": "accepted: the flagged class is in-bar value labels sitting on their own bars, by design; no blocking class fires"
+    },
+    "Fig4_hazards": {
+      "collision_audit": "PASS",
+      "disposition": "none needed"
+    },
+    "Fig5_concordance": {
+      "collision_audit": "PASS",
+      "disposition": "none needed"
+    },
+    "Fig6_dual_lake": {
+      "collision_audit": "REVIEW REQUIRED (0 fail, 4 warn)",
+      "disposition": "accepted: in-bar labels plus contained fill overlays; no blocking class fires"
+    },
+    "FigS1_dose_response_surface": {
+      "collision_audit": "FIX BEFORE DELIVERY (8 fail, 5 warn)",
+      "disposition": "closed by documented manual review (FigS1_dose_response_surface.manual-review.json): the FAILs are PDF-text-extraction artifacts of 3D text transforms; collision free in the 600-dpi raster"
+    }
+  }
+}

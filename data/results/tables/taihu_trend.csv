@@ -1,0 +1,7 @@
+estimator,scale,slope,p,n
+Sen,monthly_decimal_year,0.373856,3.0616022854923486e-05,365
+Sen,monthly_cross_year_pairs,0.355627,3.0616022854923486e-05,365
+Sen,annual_ge9months,0.712179,0.001166006739637071,30
+OLS,annual_ge9months,0.770961,0.0010532724848108057,30
+Sen,annual_all_years_sensitivity,0.695005,0.00026356866715215865,32
+OLS,annual_all_years_sensitivity,0.766323,0.0003031216243400384,32

@@ -1,0 +1,5 @@
+stage,n,share,p_two_sided,note
+T0,491,0.4216,0.0005900393011172334,"naive estimator (Euclidean-joint Kraskov with KSG counting formulas) on naive series (all-species codes, row-index lags, naive z-score); binom_two_sided"
+T1,491,0.391,1.5725590421253171e-06,estimator isolated vs T0 (identical series): -3.1 pp; binom_two_sided
+T2,316,0.4525,0.10265992160286647,species isolated vs T1 (all-species -> total-only): +6.1 pp; binom_two_sided
+T3,316,0.4557,0.12866383248465801,anchor: strict te_z share on the calendar-true pipeline (316/316 combos); indexing isolated vs T2 (row -> calendar-true): +0.3 pp; binom_two_sided

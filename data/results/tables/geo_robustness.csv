@@ -1,0 +1,45 @@
+method,scope,n,flow_dom_share,p_two_sided
+std_ccm,full,316,0.519,0.5361
+std_ccm,United States,99,0.4747,0.6879
+std_ccm,India,86,0.6163,0.0399
+std_ccm,Canada,83,0.4819,0.8264
+std_ccm,Norway,32,0.5625,0.5966
+std_ccm,Slovenia,16,0.375,0.4545
+std_ccm,leave_out_United_States,217,0.5392,0.2774
+std_ccm,leave_out_India,230,0.4826,0.6445
+std_ccm,leave_out_Canada,233,0.5322,0.3591
+std_ccm,leave_out_Norway,284,0.5141,0.6779
+std_ccm,leave_out_Slovenia,300,0.5267,0.3865
+deseason,full,316,0.4684,0.2851
+deseason,United States,99,0.5051,1.0
+deseason,India,86,0.4535,0.4505
+deseason,Canada,83,0.4578,0.5104
+deseason,Norway,32,0.3438,0.1102
+deseason,Slovenia,16,0.625,0.4545
+deseason,leave_out_United_States,217,0.4516,0.1744
+deseason,leave_out_India,230,0.4739,0.4683
+deseason,leave_out_Canada,233,0.4721,0.4318
+deseason,leave_out_Norway,284,0.4824,0.5934
+deseason,leave_out_Slovenia,300,0.46,0.1841
+te,full,316,0.4557,0.1287
+te,United States,99,0.4242,0.1591
+te,India,86,0.2907,0.0001
+te,Canada,83,0.6386,0.0152
+te,Norway,32,0.5625,0.5966
+te,Slovenia,16,0.375,0.4545
+te,leave_out_United_States,217,0.47,0.4154
+te,leave_out_India,230,0.5174,0.6445
+te,leave_out_Canada,233,0.3906,0.001
+te,leave_out_Norway,284,0.4437,0.0657
+te,leave_out_Slovenia,300,0.46,0.1841
+mccm,full,313,0.8594,0.0
+mccm,United States,99,0.8081,0.0
+mccm,India,83,0.9398,0.0
+mccm,Canada,83,0.8313,0.0
+mccm,Norway,32,0.9062,0.0
+mccm,Slovenia,16,0.8125,0.0213
+mccm,leave_out_United_States,214,0.8832,0.0
+mccm,leave_out_India,230,0.8304,0.0
+mccm,leave_out_Canada,230,0.8696,0.0
+mccm,leave_out_Norway,281,0.8541,0.0
+mccm,leave_out_Slovenia,297,0.862,0.0

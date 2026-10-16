@@ -1,0 +1,8 @@
+check,value,reference,pass,note
+a_zscored_mixed_scale_bivariate,0.2253,0.2231,True,"n=5000, seed=42; |diff|<0.03 required"
+a_unstandardised_mixed_scale_bivariate,0.003,0.2231,False,"same data, no z-score: max-norm eps dominated by the 1e2-scale marginal; the raw-scale failure mode"
+b_old_cte_w2f_exact_zeros_20seeds,20.0,20.0,True,eps-cancellation mechanism reproduced: both KSG terms' joint spaces contain the 1e3-scale flow -> identical eps -> bitwise-identical digamma sums -> TE = 0.0 exactly
+b_old_cte_f2w_mean,-1.4156,0.2,False,old unstandardised f2w CTE is strongly negative although the true flow->nutrient coupling is positive (spurious sign)
+b_zscored_cte_f2w_mean,0.3511,,True,"z-scored CTE recovers the true positive flow->nutrient coupling; exact zeros: f2w 0/20, w2f 0/20"
+c_independent_gaussian_corrected,0.0064,0.0,True,"n=5000 seed 42, consecutive draws; true 0"
+c_independent_gaussian_naive,-0.2524,0.0,False,naive Euclidean-joint Kraskov for contrast

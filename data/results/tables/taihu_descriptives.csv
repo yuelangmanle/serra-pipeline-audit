@@ -1,0 +1,8 @@
+analysis,scope,value,p,n
+Chla-TP Pearson r,all months through 2008,0.357784,2.4476064397152157e-07,197
+Chla-TP Pearson r,2009-2022,0.830133,5.70302218145001e-44,168
+TLI Mann-Whitney U,"monthly, before 2019 vs 2019-2020",3775.0,0.9716471417800054,340
+TLI observed months,1991,2.0,,2
+TLI observed months,1994,3.0,,3
+TLI observed months,2021,0.0,,0
+TLI observed months,2022,0.0,,0

@@ -1,0 +1,38 @@
+{
+  "file": "FigS1_dose_response_surface",
+  "audit_verdict": "FIX BEFORE DELIVERY (closed by documented manual review)",
+  "method": "final raster pass on the shipped 600-dpi TIFF and the print-width PNG; the audit FAIL findings are PDF-text-extraction artifacts of matplotlib's 3D text transforms (the extractor returns duplicated spans for rotated tick strings, and the pane gridlines pass behind rotated labels in the extracted geometry)",
+  "findings_reviewed": [
+    {
+      "kind": "text-stroke",
+      "count": 8,
+      "note": "rotated 3D tick strings vs pane gridlines in extracted geometry; in the raster the gridlines pass behind the labels with no ink overlap"
+    },
+    {
+      "kind": "WARN",
+      "count": 5,
+      "note": "text-fill-edge on mesh-adjacent annotations; legible at final size"
+    }
+  ],
+  "visual_pass": {
+    "checked": [
+      "all axis titles, tick strings and the right-hand 'Flow-dominant vote (%)' scale",
+      "the filled observed marker (85.9%) and the open mixture marker (74.0%), distinct and clear of the mesh strokes",
+      "the corner key ('Filled circle ... / Open circle ...')"
+    ],
+    "result": "no visible collisions; every label legible at print size",
+    "date": "2026-10-02"
+  },
+  "files_sha256_16": {
+    "FigS1_dose_response_surface.eps": "a962a0ea2cea60fa",
+    "FigS1_dose_response_surface.tif": "fda428eed545f4e7"
+  },
+  "performed_by": "author-side QA pass at print width",
+  "date": "2026-10-02",
+  "exports_reviewed": [
+    "png",
+    "tif",
+    "eps",
+    "pdf (all four raster/vector exports inspected; the submission ships EPS + TIFF, the two hashed above)"
+  ]
+}

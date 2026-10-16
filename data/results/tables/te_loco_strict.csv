@@ -1,0 +1,7 @@
+scope,n,share,p_two_sided
+full,316,0.4557,0.1287
+leave-out CAN,233,0.3906,0.001
+leave-out IND,230,0.5174,0.6445
+leave-out NOR,284,0.4437,0.0657
+leave-out SVN,300,0.46,0.1841
+leave-out USA,217,0.47,0.4154

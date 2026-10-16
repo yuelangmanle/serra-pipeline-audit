@@ -1,0 +1,331 @@
+{
+  "pdf": "figures/FigS1_dose_response_surface.pdf",
+  "auditable": true,
+  "verdict": "FIX BEFORE DELIVERY",
+  "page_count": 1,
+  "visible_text_box_count": 18,
+  "text_trace_count": 18,
+  "stroke_path_count": 4697,
+  "filled_region_count": 4670,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 8,
+    "warn": 5,
+    "contained_fill_overlays": 1,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 5 stroked path(s)",
+      "text": "Pipeline seasonal R\u00b2, nutrient (%)",
+      "text_bbox": [
+        137.0384521484375,
+        176.90908813476562,
+        252.05606079101562,
+        226.09190368652344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        64.66336059570312,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 5,
+      "object_indexes": [
+        4,
+        8,
+        10,
+        18,
+        22
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-stroke",
+      "page": 1,
+      "message": "Text is crossed by 4 stroked path(s)",
+      "text": "20",
+      "text_bbox": [
+        137.09971618652344,
+        177.62789916992188,
+        251.7943115234375,
+        225.9237518310547
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        71.18824768066406,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 4,
+      "object_indexes": [
+        4,
+        10,
+        18,
+        22
+      ]
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 100.0% of the smaller box",
+      "text": "20",
+      "text_bbox": [
+        137.09971618652344,
+        177.62789916992188,
+        251.7943115234375,
+        225.9237518310547
+      ],
+      "other_text": "30",
+      "other_bbox": [
+        225.6282958984375,
+        189.40176391601562,
+        234.5255126953125,
+        197.40176391601562
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 100.0% of the smaller box",
+      "text": "20",
+      "text_bbox": [
+        137.09971618652344,
+        177.62789916992188,
+        251.7943115234375,
+        225.9237518310547
+      ],
+      "other_text": "Pipeline seasonal R\u00b2, nutrient (%)",
+      "other_bbox": [
+        137.0384521484375,
+        176.90908813476562,
+        252.05606079101562,
+        226.09190368652344
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 6.6% of the smaller box",
+      "text": "10",
+      "text_bbox": [
+        174.27761840820312,
+        170.156005859375,
+        183.17483520507812,
+        178.156005859375
+      ],
+      "other_text": "20",
+      "other_bbox": [
+        137.09971618652344,
+        177.62789916992188,
+        251.7943115234375,
+        225.9237518310547
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 15.6% of the smaller box",
+      "text": "10",
+      "text_bbox": [
+        174.27761840820312,
+        170.156005859375,
+        183.17483520507812,
+        178.156005859375
+      ],
+      "other_text": "Pipeline seasonal R\u00b2, nutrient (%)",
+      "other_bbox": [
+        137.0384521484375,
+        176.90908813476562,
+        252.05606079101562,
+        226.09190368652344
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 100.0% of the smaller box",
+      "text": "30",
+      "text_bbox": [
+        225.6282958984375,
+        189.40176391601562,
+        234.5255126953125,
+        197.40176391601562
+      ],
+      "other_text": "Pipeline seasonal R\u00b2, nutrient (%)",
+      "other_bbox": [
+        137.0384521484375,
+        176.90908813476562,
+        252.05606079101562,
+        226.09190368652344
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "FAIL",
+      "kind": "text-text",
+      "page": 1,
+      "message": "Text boxes overlap by 100.0% of the smaller box",
+      "text": "0.30",
+      "text_bbox": [
+        305.73492431640625,
+        177.56979370117188,
+        382.7435607910156,
+        229.85470581054688
+      ],
+      "other_text": "Target seasonal R\u00b2, flow",
+      "other_bbox": [
+        305.329345703125,
+        176.92185974121094,
+        382.83734130859375,
+        230.00648498535156
+      ],
+      "object_count": 1,
+      "object_indexes": []
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Pipeline seasonal R\u00b2, nutrient (%)",
+      "text_bbox": [
+        137.0384521484375,
+        176.90908813476562,
+        252.05606079101562,
+        226.09190368652344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        113.81114196777344,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        4
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "20",
+      "text_bbox": [
+        137.09971618652344,
+        177.62789916992188,
+        251.7943115234375,
+        225.9237518310547
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        113.81114196777344,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        4
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "30",
+      "text_bbox": [
+        225.6282958984375,
+        189.40176391601562,
+        234.5255126953125,
+        197.40176391601562
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        113.81114196777344,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        4
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Target seasonal R\u00b2, flow",
+      "text_bbox": [
+        305.329345703125,
+        176.92185974121094,
+        382.83734130859375,
+        230.00648498535156
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        113.81114196777344,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        4
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "0.30",
+      "text_bbox": [
+        305.73492431640625,
+        177.56979370117188,
+        382.7435607910156,
+        229.85470581054688
+      ],
+      "other_text": null,
+      "other_bbox": [
+        158.4755096435547,
+        113.81114196777344,
+        340.4308166503906,
+        191.19873046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        4
+      ]
+    }
+  ]
+}

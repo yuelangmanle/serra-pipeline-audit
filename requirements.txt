@@ -1,0 +1,8 @@
+# Python 3.9; versions used to produce the shipped tables
+numpy>=2.0,<3.0
+pandas>=2.2,<3.0
+scipy>=1.13,<2.0
+matplotlib==3.9.4
+Pillow==11.3.0
+# needed only for the panel-alignment gate and the collision audit
+PyMuPDF>=1.24,<2.0

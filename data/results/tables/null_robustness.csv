@@ -1,0 +1,29 @@
+check,family,scope,value_mean,value_min,value_max,n,n_unit
+identity_exclusion,TE,full,46.6341,43.038,49.6835,3476,draws
+identity_exclusion,TE,identity draws removed,46.3026,43.038,49.6835,3425,draws
+identity_exclusion,CTE,full,73.9356,72.7848,76.2658,3476,draws
+identity_exclusion,CTE,identity draws removed,73.9548,72.549,76.4331,3425,draws
+identity_exclusion,strict_months,full,51.9873,50.5618,55.597,3211,draws
+identity_exclusion,strict_months,identity draws removed,51.6416,50.3876,54.2308,2899,draws
+identity_exclusion,std_ccm,full,49.7405,46.519,53.1646,316,combinations
+identity_exclusion,std_ccm,identity draws removed,49.8628,46.7742,53.1646,316,combinations
+identity_exclusion,des_ccm,full,47.7834,45.8861,52.5316,316,combinations
+identity_exclusion,des_ccm,identity draws removed,47.8297,45.7516,53.0945,316,combinations
+strata,TE,>11 complete years,41.573,38.5768,46.0674,267,combinations
+strata,TE,<=11 complete years,67.3469,65.3061,75.5102,49,combinations
+strata,CTE,>11 complete years,77.9026,72.2846,76.779,267,combinations
+strata,CTE,<=11 complete years,73.4694,59.1837,77.551,49,combinations
+strata,strict_months,>11 complete years,49.5575,45.1327,50.885,226,combinations
+strata,strict_months,<=11 complete years,73.8095,66.6667,83.3333,42,combinations
+strata,std_ccm,>11 complete years,53.9326,46.8165,53.9326,267,combinations
+strata,std_ccm,<=11 complete years,40.8163,40.8163,55.102,49,combinations
+strata,des_ccm,>11 complete years,46.8165,44.5693,52.4345,267,combinations
+strata,des_ccm,<=11 complete years,46.9388,32.6531,59.1837,49,combinations
+seed_stability,std_ccm,library-split seed 42,51.8987,,,316,combinations
+seed_stability,std_ccm,library-split seed 1,47.4684,,,316,combinations
+seed_stability,std_ccm,library-split seed 2,48.7342,,,316,combinations
+seed_stability,std_ccm,"combinations changing vote vs seed 42 (summed over seeds 1, 2)",196.0,,,316,combinations
+seed_stability,des_ccm,library-split seed 42,46.8354,,,316,combinations
+seed_stability,des_ccm,library-split seed 1,45.8861,,,316,combinations
+seed_stability,des_ccm,library-split seed 2,50.0,,,316,combinations
+seed_stability,des_ccm,"combinations changing vote vs seed 42 (summed over seeds 1, 2)",231.0,,,316,combinations

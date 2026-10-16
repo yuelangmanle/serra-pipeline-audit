@@ -1,0 +1,3 @@
+statistic,observed,ci_lo,ci_hi,n,n_clusters,n_boot,seed
+te_share_strict,0.4557,0.3994,0.5139,316,248,2000,42
+te_share_unstd,0.0475,0.0237,0.0712,316,248,2000,42

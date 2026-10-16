@@ -1,0 +1,2 @@
+mixture_expected_null_share,ci_lo,ci_hi,observed_share,observed_ci,n
+0.74,0.716,0.763,0.859,81.8-89.7,316
